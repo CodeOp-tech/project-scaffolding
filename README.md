@@ -54,6 +54,8 @@
 
 ## Git Collaboration Steps
 
+### Option 1: Forks
+
 1. Fork the repo
 2. Clone it
 3. In your terminal, run `git remote add upstream [url]` (original url)
@@ -72,5 +74,19 @@ _Each time you need to work on some new stuff, make sure you pull latest things 
 6. `git add .`
 7. `git commit -m "whatever"`
 8. `git push origin staging` (You’re pushing to YOUR repository, not the upstream)
-9. Create a new Pull Request(PR) in staging of your repo to original repo’s staging branch
+9. Create a new Pull Request (PR) in staging of your repo to original repo’s staging branch
 10. Repeat the cycle from 5 - 9 ;)
+
+### Option 2: Branches
+
+1. Clone the repo
+2. To work on a new feature, create a new branch with `git checkout -b feature-name`
+3. Work on your feature
+4. `git add .`
+5. `git commit -m "whatever"`
+6. `git push`
+7. Create a new Pull Request (PR) on GitHub, from your branch to the main/development branch
+8. Ideally, have another member of your team review that pull request. They can `git pull` and `git checkout feature-name` to review your code.
+9. If the code is good, the PR can be accepted and merged on GH. You can optionally delete the branch after mergin (GitHub gives you that option)
+10. If the code needs changes, you can request them in the PR, adding comments to it. The person responsible for that PR can commit new changes into their branch, which will be added automatically to the PR.
+11. A common strategy is also to create **issues** on GH, and name your branches like `issue-14`, or `bug-14` or similar things.

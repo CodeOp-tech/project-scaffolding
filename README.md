@@ -5,6 +5,8 @@
 3. [React Scaffolding](#react-scaffolding-step-by-step)
 4. [Full Stack App Scaffolding](#full-stack-app-step-by-step)
 5. [Git Collaboration](#git-collaboration-steps)
+   - [Option 1 - Forks](#option-1-forks)
+   - [Option 2 - Branches](#option-2-branches)
 
 ## Creating your repositories step by step
 

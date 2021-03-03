@@ -82,7 +82,7 @@ _Each time you need to work on some new stuff, make sure you pull latest things 
 ### Option 2: Branches
 
 1. Clone the repo
-2. To work on a new feature, create a new branch with `git checkout -b feature-name`
+2. To work on a new feature, create a new branch with `git checkout -b feature-name`. Make sure you are in your main/development brach before creating the new branch.
 3. Work on your feature
 4. `git add .`
 5. `git commit -m "whatever"`

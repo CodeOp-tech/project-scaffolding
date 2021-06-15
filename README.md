@@ -42,9 +42,8 @@
 3. In `index.js`, remove serviceWorker setup (lines 9-12), and the import from line 5.
 4. In `App.css` remove the default styling, but keep the file for if you will use some css styling later.
 5. In `App.js`, remove the logo import in line 2, and the header content in lines 8 - 21.
-6. Change the functional component into class component, so you can add some state later on.
-7. If creating a **front-end only** app, simply navigate into your app folder (`cd folder-name`) and `yarn start` to run the app and begin coding
-8. If building a **full-stack app**, continue with the steps below
+6. If creating a **front-end only** app, simply navigate into your app folder (`cd folder-name`) and `yarn start` to run the app and begin coding
+7. If building a **full-stack app**, continue with the steps below
 
 ## Full Stack App Step by Step
 
